@@ -7,11 +7,6 @@ const CartItemSchema = new mongoose.Schema(
     price: Number,
     count: Number,
     description: String,
-    picture: {
-      location: {
-        type: String,
-      },
-    },
   },
   { timestamps: true }
 );
